@@ -1,0 +1,55 @@
+.App {
+    color: whitesmoke;
+    margin: auto;
+    max-width: 400px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.image {
+    width: 50px;
+    background-color: rgb(54, 131, 102);
+}
+
+.bg-audio-title {
+    background-color: rgb(62, 62, 62);
+}
+
+.br-0 {
+    border-radius: 0px;
+}
+
+.w-20 {
+    width: 20px;
+}
+
+.playing {
+    background-color: rgba(167, 231, 199, 0.449);
+}
+
+.playing > #playing-indication {
+    content: url(./files/audio-svgrepo-com.svg)
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  audio::-webkit-media-controls-play-button {
+    background-color: #00a07d;
+    border-radius: 50%;
+  }
+  
+  audio::-webkit-media-controls-play-button:hover {
+    background-color: rgba(2, 111, 56, 0.449);
+  }
