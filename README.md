@@ -23,7 +23,7 @@ node .
 ```
 
 ## frontend
-Step 1: Add config.json file in the root of `frontend` folder
+Step 1: Add config.json file in the `/src` folder of `/frontend` folder
 >config.json
 >```
 >{
