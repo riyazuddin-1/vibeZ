@@ -17,8 +17,14 @@ function Upload({width}) {
         method: 'POST',
         body: formData
     }).then((response)=> {
-        console.log(response);
-        document.getElementById("notify").innerHTML = "Uploaded successfully";
+        if(response.status == 413) {
+          document.getElementById("notify").innerHTML = "File size is too large";
+        }
+        else if(response.ok) {
+          console.log(response);
+          document.getElementById("notify").innerHTML = "Uploaded successfully";
+        }
+        setTimeout(document.getElementById("notify").innerHTML = "", 5000);
     })
 }
 
