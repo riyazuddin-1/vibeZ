@@ -27,7 +27,7 @@ Step 1: Add config.json file in the `/src` folder of `/frontend` folder
 >config.json
 >```
 >{
->  "backend-server": "http://localhoat:2000"
+>  "backend-server": "http://localhoat:2000/"
 >}
 >```
 
